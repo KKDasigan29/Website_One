@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    min-width: 100vw;
+    height: 100%;
+    background-color: white;
+    display:flex; 
+    flex-direction:column;
+}
+.nav-links {
+    background-color: lightgreen;
+    width: 100vw;
+    padding: 20px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav-links h3 a {
+    text-decoration: none;
+    float: left;
+    padding-left: 30px;
+}
+.nav-links li a {
+    text-decoration: none;
+    float: right;
+    padding-right: 30px;
+    margin: 0 15px;
+    
+}
+
+form {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    width: 800px;
+    margin: auto;
+    padding: 10px 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+label {
+    display: block;
+    color: grey;
+    font-size: 13px;
+}
+input {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name {
+    margin-bottom: 5%;
+}
+
+.column { 
+    float: left;
+}
+.date {
+    display: flex;
+    align-items: center;
+}
+.dd {
+    justify-content: center;
+    margin-right: 15px;
+}
+select {
+    width: 100px;
+}
+.cold {
+    float: right;
+
+}
+
+
+.home {
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+.capital-city {
+    display: flex;
+    margin-bottom: 10px;
+}
+.town {
+    float: left;
+}
+.capital {
+    float: right;
+    margin-left: 43px;
+}
+
+.contact {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.email {
+    float: left;
+}
+.m-number {
+    float: right;
+
+    
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-number {
+    float: left;
+}
+.w-number {
+    float: right;
+
+}
+
+.company {
+    margin-top: 5%
+}
+.course {
+    margin-bottom: 5%;
+    margin-top: 5%
+}
+textarea {
+    width: 100%;
+}
+button {
+    background-color: springgreen;
+    border: 0 springgreen;
+    color: black;
+    padding: 10px;
+}
+#btn {
+    float: right;
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightblue;
+    position:sticky;
+    left: 0px;
+    bottom:0px;
+    width:100%;
+    padding: 1px;
+    bottom: 0%;
+}
+.fa {
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+}
+.fa-facebook {
+    color: black;
+}
+.fa-twitter {
+    color: black;
+}
+.foot a {
+    padding-left: 10px;
+}
+.copy h5 {
+    text-align: right;
+    justify-content:center;
+    text-shadow: black;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}

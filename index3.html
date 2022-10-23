@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="nav-links">
+      <h3><a href="index.html">Karyl Kenna Dasigan</a></h3>
+      <ul>
+        <li><a href="index2.html">Stats</a></li>
+        <li><a href="index3.html">Registration</a></li>
+        <li><a href="index4.html">Quiz App</a></li>
+      </ul>
+    </div>
+
+    <form>
+      <h2>Student Registration Form</h2>
+      <p>Fill out the form carefully for registration</p>
+      <br />
+
+      <h4>Student Name</h4>
+      <div class="row">
+        <div class="name" style="width: 200px">
+          <input class="firstname" type="text" name="first_name" size="32" />
+          <label>First Name</label>
+        </div>
+        <div class="name" style="width: 200px">
+          <input class="middlename" type="text" name="middle_name" size="32" />
+          <label>Middle Name</label>
+        </div>
+        <div class="name" style="width: 200px">
+          <input class="lastname" type="text" name="last_name" size="32" />
+          <label>Last Name</label>
+        </div>
+      </div>
+
+      <div class="column">
+        <h4>Birth Date</h4>
+
+        <div class="date">
+          <div class="dd">
+            <select>
+              <option value="null"></option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+            <label>Day</label>
+          </div>
+
+          <div class="dd">
+            <select>
+              <option value="null"></option>
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>AUgust</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+            </select>
+            <label>Month</label>
+          </div>
+
+          <div class="dd">
+            <select>
+              <option value="null"></option>
+              <option>1995</option>
+              <option>1996</option>
+              <option>1997</option>
+              <option>1998</option>
+              <option>1999</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+              <option>2005</option>
+              <option>2006</option>
+              <option>2007</option>
+              <option>2008</option>
+              <option>2009</option>
+              <option>2010</option>
+              <option>2011</option>
+              <option>2012</option>
+              <option>2013</option>
+              <option>2014</option>
+              <option>2015</option>
+              <option>2016</option>
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+            </select>
+            <label>Year</label>
+          </div>
+          <!--cut-->
+        </div>
+      </div>
+
+      <div class="cold">
+        <h4>Gender</h4>
+        <select nae="gender" style="width: 330px">
+          <option disabled hidden selected>Please Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+      </div>
+
+      <div class="home">
+        <h4>Address</h4>
+        <input class="Address" type="text" name="Address" size="100" />
+        <label>Street Address</label><br />
+        <input class="Address" type="text" name="Address" size="100" />
+        <label>Street Address Line 2</label>
+      </div>
+      <br />
+
+      <div class="capital-city">
+        <div class="town">
+          <input class="city" type="text" name="city" size="50" />
+          <label>City</label>
+        </div>
+        <br />
+
+        <div class="capital">
+          <input
+            class="state/province"
+            type="text"
+            name="state/province"
+            size="50"
+          />
+          <label>State/Province</label>
+        </div>
+        <br />
+      </div>
+
+      <input
+        class="postal/zipcodelabel"
+        type="text"
+        name="postal/zip code"
+        size="99"
+      />
+      <label>Postal/Zip Code</label><br />
+
+      <div class="contact">
+        <div class="email">
+          <h4>Student E-mail</h4>
+          <input
+            type="text"
+            name="student e-mail"
+            placeholder="ex.myacc.33@gmail.com"
+            style="width: 330px"
+          />
+          <label>myaccount33@gmail.com</label>
+        </div>
+
+        <div class="m-number">
+          <h4>Mobile Number</h4>
+          <input
+            type="number"
+            name="mobile_number"
+            placeholder="(0000)-000-0000"
+            style="width: 330px"
+          />
+        </div>
+      </div>
+
+      <!--Cut-->
+      <div class="number">
+        <div class="p-number">
+          <h4>Phone Number</h4>
+          <input
+            type="number"
+            name="phone_number"
+            placeholder="(0000)-000-0000"
+            style="width: 330px"
+          />
+        </div>
+        <br /><br />
+
+        <div class="w-number">
+          <h4 class="name">Work Number</h4>
+          <input
+            type="number"
+            name="work_number"
+            placeholder="(0000)-000-0000"
+            style="width: 330px"
+          />
+        </div>
+      </div>
+
+      <div class="company">
+        <h4>Company</h4>
+        <input
+          type="number"
+          name="work_number"
+          placeholder="(0000)-000-0000"
+          style="width: 330px"
+        />
+      </div>
+
+      <div class="course">
+        <h4>Courses</h4>
+        <select name="course" style="width: 330px">
+          <option disabled hidden selected>Please Select</option>
+          <option value="BSIT">BSIT</option>
+          <option value="BSIS">BSIS</option>
+          <option value="BSCS">BSCS</option>
+        </select>
+      </div>
+
+      <div class="adds">
+        <h4>Additional Application</h4>
+        <textarea name="desc" id="desc" cols="50" rows="7" fixed></textarea>
+      </div>
+      <br />
+
+      <div class="box"></div>
+      <button>Submit Application</button>
+      <button id="btn">Clear Fields</button>
+      <br /><br />
+    </form>
+  </body>
+
+  <footer>
+    <div class="foot">
+      <br />
+      <h4>Follow me on:</h4>
+      <a
+        href="https://facebook.com/karylkenna.dasigan"
+        class="fa fa-facebook"
+      ></a>
+      <a href="https://twitter.com/BlueVenryl?s=09" class="fa fa-twitter"></a>
+    </div>
+    <div class="copy">
+      <h5>Copyright MB ©2022</h5>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.nav-links {
+    background-color: lightgreen;
+    width: 100vw;
+    padding: 20px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav-links h3 a {
+    text-decoration: none;
+    float: left;
+    padding-left: 30px;
+}
+.nav-links li a {
+    text-decoration: none;
+    float: right;
+    padding-right: 30px;
+    margin: 0 15px;
+}
+fieldset {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+.stu-info legend{
+    background-color: springgreen;
+    border-radius: 5px;
+    paddinG: 1%;
+}
+.exam legend {
+    background-color: springgreen;
+    border-radius: 5px;
+    padding: 1%;
+}
+li {
+    display: list-item;
+    list-style-position: inside;
+}
+button {
+    background-color: #04aa6d;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: #ffffff;
+    padding: 5px;
+    width: 80px;
+    margin-left: 5%;
+}
+.progress { 
+    position: relative;
+    width: 210px;
+    height: 20px;
+    background: #9cbab4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 11px;
+    float: right;
+    margin-right: 5%;
+}
+.progress__fill {
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.progress__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    font: bold 14px 'Quicksand', sans-serif;
+    color: white;
+}
+footer {
+    background-color: lightblue;
+    position:sticky;
+    left: 0px;
+    bottom:0px;
+    width:100%;
+    padding: 2px;
+    bottom: 0%;
+    overflow: hidden;
+}
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+}
+  .fa-facebook {
+    color: black;
+}
+  .fa-twitter {
+    color: black;
+}
+.foot a {
+    margin-right: 5px;
+}
+.copy h5 {
+    text-align: right;
+    justify-content:center;
+    text-shadow: black;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
